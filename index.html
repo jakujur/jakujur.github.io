@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- import CSS file -->
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+
+  <!-- Specify the character encoding for the HTML document -->
+    <meta charset="UTF-8">
+
+  <!-- The width=device-width - part sets the width of the page to follow the screen-width of the device and sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- even out the differences between browsers -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+  <!-- cdnjs.com font library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+  <!-- Font Awesome icon library -->
+  <script src="https://kit.fontawesome.com/53cdb94000.js" crossorigin="anonymous"></script>
+
+  <title>My first portfolio</title>
+  
+  </head>
+
+  <body>
+
+    <!-- Navigation bar -->
+
+    <header>
+      <div class="logo">
+        <i class="fab fa-css3-alt technology"></i>
+        <i class="fab fa-js-square technology"></i>
+        <i class="fab fa-java technology"></i>
+        <i class="fab fa-html5 technology"></i>
+        <i class="fas fa-database technology"></i>
+        <i class="fab fa-react technology"></i>
+        <i class="fab fa-node-js technology"></i>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+          Hi, I am <strong>Jakub Jurczak</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+      <img src="img/zdjęcie-j.PNG" alt="a picture Jakub Jurczak" class="intro__img">
+    </section>
+        
+
+
+    <section class="technologies">
+      <i class="fab fa-html5 fa-3x" style="color:#db5f0d;"></i>
+      <i class="fab fa-css3-alt fa-3x" style="color:#3537bd;"></i>
+      <i class="fab fa-js-square fa-3x" style="color:#e9d416;"></i>
+      <i class="fab fa-node-js fa-3x" style="color:#0e9c09;"></i>
+      <i class="fab fa-react fa-3x"></i>
+    </section>
+
+  <!-- Services -->
+
+    <section class="my-services" id="services">
+      <h1 class="section__title section__title--services">What I do</h1>
+      <div class="services">
+
+          <div class="service"> <!-- / service -->
+              <h3>Web Development</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.</p>
+          </div>
+          
+          <div class="service"> <!-- / service -->
+              <h3>Mobile Application</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.</p>
+          </div> 
+
+        </div>
+
+        <br>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+  <!-- About -->
+
+  <section class="about_me" id="about">
+  <h1 class="section__title section__title--about">About me</h1>
+
+    <div class="about-section">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.</p>
+    </div> 
+
+  <img src="/img/ja.jpg" class="about_img">
+
+  </section>
+
+  <!-- Work-->
+
+  <section class="my_work" id="work">
+    <h1 class="section__title section__title--work"><strong>My Works</strong></h1>
+
+    <div class="works">
+
+        <article class="work_tab"> <!-- application -->
+          <h3 class="application_title">Lorem ipsum</h3>
+          <p class="application_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="/img/Przechwytywanie.JPG" height="200">
+          <br>
+          <i class="fas fa-code-branch"></i><a class="view_on_github_button" href="">Go to Github</a>
+          <i class="fas fa-external-link-alt"></i><a class="live_preview_button" href="">Live version</a>
+          <div class="skill_list">
+            <p>Skills used</p>
+            <ul>
+              <li>Lorem</li>
+              <li>Ipsum</li>
+              <li>dolor</li>
+            </ul>
+          </div>
+        </article> 
+        
+        <article class="work_tab"> <!-- application -->
+          <h3 class="application_title">Lorem ipsum</h3>
+          <p class="application_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="/img/Przechwytywanie.JPG" height="200">
+          <br>
+          <i class="fas fa-code-branch"></i><a class="view_on_github_button" href="">Go to Github</a>
+          <i class="fas fa-external-link-alt"></i><a class="live_preview_button" href="">Live version</a>
+          <div class="skill_list">
+            <p>Skills used</p>
+            <ul>
+              <li>Lorem</li>
+              <li>Ipsum</li>
+              <li>dolor</li>
+            </ul>
+          </div>
+        </article> 
+        
+        <article class="work_tab"> <!-- application -->
+          <h3 class="application_title">Lorem ipsum</h3>
+          <p class="application_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="/img/Przechwytywanie.JPG" height="200">
+          <br>
+          <i class="fas fa-code-branch"></i><a class="view_on_github_button" href="">Go to Github</a>
+          <i class="fas fa-external-link-alt"></i><a class="live_preview_button" href="">Live version</a>
+          <div class="skill_list">
+            <p>Skills used</p>
+            <ul>
+              <li>Lorem</li>
+              <li>Ipsum</li>
+              <li>dolor</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work_tab"> <!-- application -->
+          <h3 class="application_title">Lorem ipsum</h3>
+          <p class="application_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="/img/Przechwytywanie.JPG" height="200">
+          <br>
+          <i class="fas fa-code-branch"></i><a class="view_on_github_button" href="">Go to Github</a>
+          <i class="fas fa-external-link-alt"></i><a class="live_preview_button" href="">Live version</a>
+          <div class="skill_list">
+            <p>Skills used</p>
+            <ul>
+              <li>Lorem</li>
+              <li>Ipsum</li>
+              <li>dolor</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work_tab"> <!-- application -->
+          <h3 class="application_title">Lorem ipsum</h3>
+          <p class="application_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="/img/Przechwytywanie.JPG" height="200">
+          <br>
+          <i class="fas fa-code-branch"></i><a class="view_on_github_button" href="">Go to Github</a>
+          <i class="fas fa-external-link-alt"></i><a class="live_preview_button" href="">Live version</a>
+          <div class="skill_list">
+            <p>Skills used</p>
+            <ul>
+              <li>Lorem</li>
+              <li>Ipsum</li>
+              <li>dolor</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work_tab"> <!-- application -->
+          <h3 class="application_title">Lorem ipsum</h3>
+          <p class="application_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="/img/Przechwytywanie.JPG" height="200">
+          <br>
+          <i class="fas fa-code-branch"></i><a class="view_on_github_button" href="">Go to Github</a>
+          <i class="fas fa-external-link-alt"></i><a class="live_preview_button" href="">Live version</a>
+          <div class="skill_list">
+            <p>Skills used</p>
+            <ul>
+              <li>Lorem</li>
+              <li>Ipsum</li>
+              <li>dolor</li>
+            </ul>
+          </div>
+        </article>
+
+    </div>
+
+  </section>
+
+  <!-- Footer-->
+
+  <footer>
+    <p> Contact Me</p>
+
+    <div class="social_bar">
+      <a href="https://www.facebook.com/jakub.jurczak.90"><i class="fab fa-facebook-square fa-3x" style="color:#3d3d3d; margin: 10px;"></i></a>
+      <a href="https://twitter.com/Jur4k"><i class="fab fa-twitter-square fa-3x" style="color:#3d3d3d; margin: 10px;"></i></a>
+      <a href="https://www.linkedin.com/in/jakub-jurczak/"><i class="fab fa-linkedin fa-3x" style="color:#3d3d3d; margin: 10px;"></i></a>
+      <a href=""><i class="fab fa-github-square fa-3x" style="color:#3d3d3d; margin: 10px;"></i></a>
+    </div>
+    <a href="jurak2012@gmial.com" class="footer__link">jurak2012@gmial.com</a>
+  </footer>
+
+  <script src="js/index.js"></script>
+
+  </body>
+
+</html>
