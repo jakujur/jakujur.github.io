@@ -80,28 +80,7 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
-.section__title {
-    margin-bottom: .25em;
-    color: var(--clr-accent);
-    font-family: var(--ff-primary)
-    
-}
-.section__title--nav{
-    float: left;
-    margin: 1px;
-    font-size: 1rem;
-}
-.section__title--intro {
-    font-weight: var(--fw-bold);
-    color: var(--clr-dark);
-    margin-bottom: 0;}
-    
-.section__title--services,
-.section__title--about,
-.section__title--work {
-    font-weight: var(--fw-bold);
-    margin-bottom: 1em
-}
+
 
 html {
 
@@ -237,7 +216,6 @@ header {
     font-size: 1.5em;
     padding-right:0.5em;
     padding-left: 0.5em;
-    
 }
 
 .intro__img {
@@ -246,22 +224,45 @@ header {
     max-width: 300px;
 }
 
+.section__title {
+    margin-bottom: .25em;
+    color: var(--clr-accent);
+    font-family: var(--ff-primary)
+    
+}
+.section__title--nav{
+    float: left;
+    margin: 1px;
+}
+.section__title--intro {
+    font-weight: var(--fw-bold);
+    color: var(--clr-dark);
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: normal;
+    padding-bottom: 0.25em;
+    
+}
+    
+.section__title--services,
+.section__title--about,
+.section__title--work {
+    font-weight: var(--fw-bold);
+    margin-bottom: 1em
+}
+
 .section__subtitle--intro {
     display: inline-block;
     background-color: var(--clr-accent);
     width: 100%;
     text-align: left;
     text-transform: uppercase;
-}
-
-.section__title--intro{
-    margin-top: 0;
-    font-weight: normal;
-    padding-bottom: 0.25em;
+    font-size: 0.75em;
 }
 
 @media (min-width: 700px) {
     .intro {
+        font-size: 2em;
         display: grid;
         width: 100%;
         margin: 0 auto;
