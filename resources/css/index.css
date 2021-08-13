@@ -232,8 +232,12 @@ header {
 
 .intro {
     background-color: white;
-    padding-bottom: 2em;
-    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-size: 1.5em;
+    padding-right:0.5em;
+    padding-left: 0.5em;
+    
 }
 
 .intro__img {
@@ -246,7 +250,14 @@ header {
     display: inline-block;
     background-color: var(--clr-accent);
     width: 100%;
-    
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.section__title--intro{
+    margin-top: 0;
+    font-weight: normal;
+    padding-bottom: 0.25em;
 }
 
 @media (min-width: 700px) {
@@ -261,7 +272,6 @@ header {
             "img title"
             "img subtitle";
         grid-template-columns: auto minmax(0, 700px);
-        
     }
     
     .intro__img {
@@ -277,9 +287,9 @@ header {
         grid-row: 2;
         text-align: right;
         position: relative;
-        left: -1.5em;
+        left: -1em;
         width: calc(100% + 1.5em);
-        
+        padding-right: 0.5em;
     }
 
     .section__title--intro{
@@ -444,11 +454,17 @@ header {
 
 
 footer{
+    
     background-color:black;
     margin-top: 2em;
     text-align: center;
 }
 
+footer p {
+    color: var(--clr-light);
+    margin-bottom: 0;
+    padding-top: 0.5em;
+}
 footer li {
     display:inline;
 }
